@@ -1,0 +1,13 @@
+
+
+ll nCr(int n,int r)
+{
+  ll result=1;
+  for(int i=1;i<=r;i++)
+  {
+    result=result*n;
+    result=result/i;
+    n--;
+   }
+return result;
+}
